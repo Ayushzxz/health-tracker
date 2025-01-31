@@ -74,7 +74,8 @@
                   "maximumError": "8kB"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "baseHref": "/health-tracker/"
             },
             "development": {
               "optimization": false,

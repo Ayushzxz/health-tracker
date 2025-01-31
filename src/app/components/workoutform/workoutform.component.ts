@@ -9,7 +9,7 @@ import { Workout } from '../../shared/workout.model'; // Import the Workout inte
   standalone: true,
   imports: [CommonModule, FormsModule],
   template: `
-    <div class="bg-white bg-opacity-50 backdrop-blur-lg border border-white/30 rounded-xl mx-auto mt-6 max-w-md w-full p-6">
+    <div class="bg-white bg-opacity-50 backdrop-blur-lg border border-white/30 rounded-4x1 mx-auto mt-6 max-w-md w-full p-6">
   <h2 class="text-2xl font-bold text-gray-800 text-center mb-6">🏋️ Add Your Workout</h2>
 
   <!-- Workout Name -->
