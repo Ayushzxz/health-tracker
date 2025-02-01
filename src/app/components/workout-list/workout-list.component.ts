@@ -54,9 +54,13 @@ import { Workout } from '../../shared/workout.model'; // Import the Workout inte
   </button>
 
   <!-- Next Button -->
-  <button (click)="nextPage()" [disabled]="currentPage === totalPages" class="px-4 py-2 border rounded-md text-sm font-medium text-gray-700 bg-white hover:bg-gray-100 disabled:opacity-50">
-    Next
-  </button>
+  <button 
+  (click)="nextPage()" 
+  [disabled]="currentPage === totalPages" 
+  class="px-5 py-2.5 border rounded-lg text-sm font-semibold text-white bg-blue-600 hover:bg-blue-700 disabled:bg-gray-300 disabled:cursor-not-allowed shadow-md transition-all">
+  Next
+</button>
+
 </div>
 
   `,
