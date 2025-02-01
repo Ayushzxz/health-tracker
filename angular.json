@@ -50,10 +50,9 @@
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
+              { "glob": "**/*", "input": "src/assets", "output": "/assets" },
+              { "glob": "404.html", "input": "src", "output": "/" },
+              { "glob": ".nojekyll", "input": "src", "output": "/" }
             ],
             "styles": [
               "src/styles.scss"
@@ -75,7 +74,7 @@
                 }
               ],
               "outputHashing": "all",
-              "baseHref": "/health-tracker/"
+              "baseHref": "/"
             },
             "development": {
               "optimization": false,
@@ -110,10 +109,8 @@
             "tsConfig": "tsconfig.spec.json",
             "inlineStyleLanguage": "scss",
             "assets": [
-  { "glob": "**/*", "input": "src/assets", "output": "/assets" },
-  { "glob": "404.html", "input": "src", "output": "/" },
-  { "glob": ".nojekyll", "input": "src", "output": "/" }
-],
+              { "glob": "**/*", "input": "src/assets", "output": "/assets" }
+            ],
             "styles": [
               "src/styles.scss"
             ],

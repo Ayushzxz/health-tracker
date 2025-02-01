@@ -7,6 +7,7 @@ import { WorkoutListComponent } from './components/workout-list/workout-list.com
 import { Workout } from './shared/workout.model';
 
 
+
 @Component({
   selector: 'app-root',
   standalone: true,
